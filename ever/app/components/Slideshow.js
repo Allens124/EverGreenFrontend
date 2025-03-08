@@ -1,4 +1,3 @@
-// components/Slideshow.js
 "use client"; // Needed for client-side components in Next.js
 
 import { Carousel } from 'react-responsive-carousel';
@@ -16,18 +15,38 @@ const images = [
 
 export default function Slideshow() {
   return (
-    <Carousel
-      autoPlay
-      infiniteLoop
-      showThumbs={false}
-      showStatus={false}
-      interval={3000} // Slide change every 3 seconds
-    >
-      {images.map((src, index) => (
-        <div key={index}>
-          <Image src={src} alt={`Slide ${index + 1}`} width={800} height={400} />
-        </div>
-      ))}
-    </Carousel>
+    <div className="slideshow-container">
+      <Carousel
+        autoPlay
+        infiniteLoop
+        showThumbs={false}
+        showStatus={false}
+        interval={3000} // Slide change every 3 seconds
+        showArrows={false}
+      >
+        {images.map((src, index) => (
+          <div key={index} className="image-wrapper">
+            <Image src={src} alt={`Slide ${index + 1}`} layout="fill" objectFit="cover" />
+          </div>
+        ))}
+      </Carousel>
+
+      <style jsx>{`
+        .slideshow-container {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          z-index: -1; /* Ensure it's in the background */
+        }
+        
+        .image-wrapper {
+          position: relative;
+          width: 100%;
+          height: 100vh;
+        }
+      `}</style>
+    </div>
   );
 }
