@@ -8,13 +8,11 @@ export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (  
     <Box>
-<Box className="header">
+      <Box className="header">
         <h1 className="tit">EverGreen</h1>
 
         {/* Menu Button */}
-        <Button 
-          type="button" 
-          className="toggle" 
+        <Button type="button" className="toggle" 
           onClick={() => setMenuOpen(prev => !prev)}
         >  
           ☰ Menu
