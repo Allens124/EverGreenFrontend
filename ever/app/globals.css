@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
 }
 .luck{
-  background-color: #9d3d3d;
+  background-color: white;
 }
 .up{
   display: flex;
@@ -17,7 +17,7 @@ body {
   align-items: center;
   border:50px;
   padding: 10px 20px;
-  background-color: #9d3d3d;
+  background-color: whitesmoke;
   position: relative;
   min-height: 60px;
 }
@@ -40,7 +40,7 @@ body {
   display: block;
   padding: 10px;
   text-decoration: none;
-  color: rgb(32, 183, 102);
+  color: white;
   border-bottom: 1px solid #dddddd;
 }
 .menub a:last-child {
@@ -82,8 +82,7 @@ body {
 }
 
 #a{
-  background-color:red;
-  background-image: url("/images/image1.png");
+  background-color: white;
 }
 
 .toggle{
@@ -97,14 +96,14 @@ button{
   color:#FAF2E4;
 }
 .b{
-  background-color: aqua;
+  background-color: white;
 }
 .c{
-  background-color: antiquewhite;
+  background-color: white;
 }
 .d{
-  background-color:aquamarine;
+  background-color:white;
 }
 .e{
-  background-color: azure;
+  background-color: white;
 }
