@@ -35,9 +35,9 @@ export default function Home() {
             <p>EverGreen is a software that works by analyzing air pollution data across the world and ranking the <br/> air quality of each region on a map, using a scale from 1 to 5, where 1 represents an “unsafe” region <br/> that has poor air quality and 5 represents a “safe” region that has favorable air quality.</p>
           </Box>
         <hr/>
-          <Box sx={{display:"flex"}}>
+          <Box sx={{display:"flex", flexDirection:"column"}}>
             <Box>
-
+              <img src="/images/"/>
             </Box>
             <Box>
 
