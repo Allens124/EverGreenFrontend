@@ -50,12 +50,12 @@ body {
   color: black;
   border-bottom: 1px solid #ddd;
 }
-nav a:hover{
-  background-color:lightgreen;
-  color:white;
-  border: 50px;
-  text-decoration: underline;
-  filter:brightness(100%);
+.menu-box a:last-child {
+  border-bottom: none;
+}
+
+.menu-box a:hover {
+  background: #f0f0f0;
 }
 .tit{
   text-align: left;
