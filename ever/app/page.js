@@ -9,8 +9,8 @@ export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (  
     <Box>
-      <Box>
-        <Box className="up">
+      <Box className="up">
+        <Box>
           <h1 className="tit">EverGreen</h1>
         </Box>
         <Box>
