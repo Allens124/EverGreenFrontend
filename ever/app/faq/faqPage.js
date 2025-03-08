@@ -15,7 +15,7 @@ export default function Home() {
        <nav>
         <a href="/">Welcome</a>
         <a href="/info">Information</a>
-        <a href="/">FAQ</a>
+        <a href="/faq">FAQ</a>
        </nav>
       </Box>
     </Box>
