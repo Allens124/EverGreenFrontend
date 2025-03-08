@@ -14,8 +14,8 @@ export default function Home() {
       <Box>
        <nav className="jian">
         <a href="/">Welcome</a>
-        <a href="info/">Information(home)</a>
-        <a href="faq/">FAQ(home)</a>
+        <a href="info/">Information</a>
+        <a href="faq/">FAQ</a>
        </nav>
       </Box>
       <Box sx={{textAlign:"center",display:"flex"}}>
