@@ -13,9 +13,9 @@ export default function Home() {
       <br/>
       <Box sx={{textAlign:"center"}}>
        <nav>
-        <a href="/..">Welcome</a>
-        <a href="/">Information</a>
-        <a href="/../faq">FAQ</a>
+        <a href="../page.js">Welcome(info)</a>
+        <a href="/infoPage.js">Information(info)</a>
+        <a href="/../faq/faqPage.js">FAQ(info)</a>
        </nav>
       </Box>
     </Box>
