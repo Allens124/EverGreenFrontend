@@ -18,7 +18,7 @@ export default function Home() {
           ☰ Menu
         </button>
       </Box>
-        //Creating the Navigation Menu
+        {/*Creating the Navigation Menu */}
        <nav className="jian">
         <a href="/">WELCOME</a>
         <a href="info/">INFORMATION</a>
