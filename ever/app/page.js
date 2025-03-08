@@ -18,7 +18,11 @@ export default function Home() {
         <a href="/faq">FAQ</a>
        </nav>
       </Box>
-      
+      <Box sx={{textAlign:"left"}}>
+        <h1>OUR MISSION:</h1>
+
+
+      </Box>
     </Box>
   );
 }
