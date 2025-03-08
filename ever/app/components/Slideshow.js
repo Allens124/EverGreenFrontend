@@ -26,7 +26,7 @@ export default function Slideshow() {
       >
         {images.map((src, index) => (
           <div key={index} className="image-wrapper">
-            <Image src={src} alt={`Slide ${index + 1}`} layout="fill" objectFit="cover" />
+            <Image src={src} alt={`Slide ${index + 1}`} fill objectFit="cover" />
           </div>
         ))}
       </Carousel>
