@@ -39,14 +39,14 @@ body {
   display: block;
   padding: 10px;
   text-decoration: none;
-  color: black;
-  border-bottom: 1px solid #ddd;
+  color: rgb(32, 183, 102);
+  border-bottom: 1px solid #dddddd;
 }
-.menu-box a:last-child {
+.menub a:last-child {
   border-bottom: none;
 }
-.menu-box a:hover {
-  background: #f0f0f0;
+.menub a:hover {
+  background: #0e9f78;
 }
 .tit{
   text-align: left;
