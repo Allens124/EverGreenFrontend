@@ -19,7 +19,7 @@ export default function Home() {
        </nav>
       </Box>
       <Box sx={{textAlign:"left"}}>
-        <h1>OUR MISSION:</h1>
+        <h1 className="xu">OUR MISSION:</h1>
 
 
       </Box>
