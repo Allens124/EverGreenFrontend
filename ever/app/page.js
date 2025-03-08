@@ -10,6 +10,7 @@ export default function Home() {
       <Box>
         <h1 className="tit">EverGreen</h1>
       </Box>
+      <br/>
       <Box sx={{textAlign:"center"}}>
        <nav>
         <a href="/">Welcome</a>
