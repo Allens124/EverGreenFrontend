@@ -6,12 +6,7 @@ import { Box, Link } from "@mui/material";
 
 export default function Home() {
   return (  
-    <Box sx={{flex:1},
-      {text-align:center},
-      {padding:10px},  
-      {text-decoration:none},
-      {font-size:21px},
-      {color:black}}>
+    <Box sx={{flex:'1',}}>
       <Link href="/">Welcome!</Link>
       <Link href="/info">Information</Link>
       <Link href="/home">AI Assistant</Link>
