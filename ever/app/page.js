@@ -35,7 +35,7 @@ export default function Home() {
         </Box>
         <hr/>
         <Box>
-          
+          <h1 className="xu">THE PROCESS:</h1>
         </Box>
         <hr/>
          <Box>
