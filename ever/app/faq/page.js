@@ -2,13 +2,13 @@
 import { useState } from "react";
 import "../globals.css";
 import * as React from 'react';
-import { Box, Button, Stack, TextField, Link } from "@mui/material";
+import { Box, Button } from "@mui/material";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (  
-    <Box>
-      <Box className="up">
+          <Box>
+            <Box className="up">
               <Box >
               <h1 className="tit">EverGreen</h1>
               </Box>
@@ -24,7 +24,7 @@ export default function Home() {
                   <a href="/faq">FAQ</a>
                 </Box>
               )}
-      </Box>
-    </Box>
+            </Box>
+          </Box>
   );
 }
