@@ -37,9 +37,12 @@ nav a:hover{
 
 .xu{
   font-family: "Comic-Sans";
-  text-align: left;
+  text-align: center;
   text-decoration: underline;
   flex:1;
+}
+p{
+  text-align: center;
 }
 .xd{
   text-wrap:wrap ;
