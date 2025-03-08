@@ -16,12 +16,12 @@ export default function Home() {
       <Box>
         {/*Creating the Menubar */}
       <Box className="navbar">
-        <Button type="button" class="toggle" onClick={() => setMenuOpen(prev => !prev)}>  
+        <Button type="button" className="toggle" onClick={() => setMenuOpen(prev => !prev)}>  
           ☰ Menu
         </Button>
       </Box>
         {/*Creating the Navigation Menu */}
-       <nav className={`jian${menuOpen?'open':'closed'}`}>
+       <nav className={`jian ${menuOpen?'open':'closed'}`}>
         <a href="/">WELCOME</a>
         <a href="info/">INFORMATION</a>
         <a href="faq/">FAQ</a>
