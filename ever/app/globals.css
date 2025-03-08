@@ -66,6 +66,7 @@ body {
 
 button{
   text-rendering: auto;
+  letter-spacing: normal;
   
 }
 :root {
