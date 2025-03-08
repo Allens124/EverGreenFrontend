@@ -7,9 +7,9 @@ import { Box, Button } from "@mui/material";
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (  
-    <Box className="luck">
+    <Box className="luck" >
       <Box className="up">
-        <Box >
+        <Box>
         <h1 className="tit">EverGreen</h1>
         </Box>
         {/* Menu Button */}
@@ -40,7 +40,7 @@ export default function Home() {
                 <img src="/images/img2.png" height={"100%"} width={"100%"}/>
             </Box>
             <Box sx={{textWrap:"balance", textAlign:"center", flex:"1"}}>
-                <img src="/images/image.png" height={"100%"} width={"100%"}/>
+                <img src="/images/image6.png" height={"100%"} width={"100%"}/>
  
             </Box>
             <Box sx={{textWrap:"balance", textAlign:"center", flex:"1"}}>

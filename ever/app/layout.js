@@ -19,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="luck">
+      <body className="luck" id = "sec">
         {children}
       </body>
     </html>
