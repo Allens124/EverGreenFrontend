@@ -19,10 +19,14 @@ export default function Home() {
        </nav>
       </Box>
       <Box>
-        <h1 className="xu">OUR MISSION:</h1>
-        <br/>
-        <p></p>
+        <Box sx={{textAlign:"center"}}>
+          <h1 className="xu">OUR MISSION:</h1>
+          <h2>EverGreen aims to provide users with real-time air pollution data in parks, forests, and across the United States. 
+            By highlighting these vulnerable and endangered regions, we hope to engage environmental activists as well as inform policymakers in their efforts to reduce climate change.</h2>
+        </Box>
+        <Box>
 
+        </Box>
       </Box>
     </Box>
   );
