@@ -16,7 +16,7 @@ export default function Home() {
           {/*Creating the Menubar */}
         <Box className="navbar">
           <Button type="button" className="toggle" onClick={() => setMenuOpen(prev => !prev)}>  
-            ☰ Menu
+            ☰
           </Button>
         </Box>
           {/*Creating the Navigation Menu */}
