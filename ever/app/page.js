@@ -5,6 +5,7 @@ import * as React from 'react';
 import { Box, Button } from "@mui/material";
 
 export default function Home() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (  
     <Box>
       <Box>
