@@ -35,14 +35,16 @@ export default function Home() {
             <p>EverGreen is a software that works by analyzing air pollution data across the world and ranking the <br/> air quality of each region on a map, using a scale from 1 to 5, where 1 represents an “unsafe” region <br/> that has poor air quality and 5 represents a “safe” region that has favorable air quality.</p>
           </Box>
         <hr/>
-          <Box sx={{display:"flex", flexDirection:"column"}}>
-            <Box>
+          <Box sx={{display:"flex", flexDirection:"row"}}>
+            <Box sx={{textWrap:"balance", textAlign:"center"}}>
               <img src="/images/img2.png" height={"100%"} width={"100%"}/>
             </Box>
-            <Box>
-                <h1>Hello</h1>
+            <Box sx={{textWrap:"balance", textAlign:"center"}}>
+                <h1>PROTECT THE ENVIRONMENT NOW! <br/>
+                DON'T LET SUCH PRECIOUS AND BEAUTIFUL ENVIRONMENT GOES TO WASTE!
+                </h1>
             </Box>
-            <Box>
+            <Box sx={{textWrap:"balance", textAlign:"center"}}>
             <img src="/images/img4.png" height={"100%"} width={"100%"}/>
             </Box>
           </Box>
