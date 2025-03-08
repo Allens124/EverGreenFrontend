@@ -76,7 +76,8 @@ body {
   border: none;
   background-color: transparent;
 }
-.navbar-toggle {
+.toggle{
+  
   overflow: hidden;
   z-index: 11;
 }
