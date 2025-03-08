@@ -11,7 +11,7 @@ export default function Home() {
         <h1 className="tit">EverGreen</h1>
       </Box>
       <br/>
-      <Box sx={{textAlign:"center"}}>
+      <Box>
        <nav>
         <a href="/">Welcome</a>
         <a href="/info">Information</a>
