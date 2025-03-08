@@ -52,3 +52,10 @@ p{
 .xd{
   text-wrap:wrap ;
 }
+
+.outlined-text {
+  color: black; /* Text color */
+  -webkit-text-stroke: 2px white; /* White outline */
+  font-size: 48px; /* Adjust as needed */
+  font-weight: bold;
+}
