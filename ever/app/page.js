@@ -9,24 +9,24 @@ export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (  
     <Box>
-      <Box className="up">
-        <h1 className="tit">EverGreen</h1>
-      </Box>
-      <br/>
       <Box>
-        {/*Creating the Menubar */}
-      <Box className="navbar">
-        <Button type="button" className="toggle" onClick={() => setMenuOpen(prev => !prev)}>  
-          ☰ Menu
-        </Button>
+        <Box className="up">
+          <h1 className="tit">EverGreen</h1>
+        </Box>
+        <Box>
+          {/*Creating the Menubar */}
+        <Box className="navbar">
+          <Button type="button" className="toggle" onClick={() => setMenuOpen(prev => !prev)}>  
+            ☰ Menu
+          </Button>
+        </Box>
+          {/*Creating the Navigation Menu */}
+        <nav style={{ display: menuOpen ? 'block' : 'none' }} className={`jian ${menuOpen?'open':'closed'}` }>
+          <a href="/">WELCOME</a>
+          <a href="info/">INFORMATION</a>
+          <a href="faq/">FAQ</a>
+        </nav>
       </Box>
-        {/*Creating the Navigation Menu */}
-       <nav style={{ display: menuOpen ? 'block' : 'none' }} className={`jian ${menuOpen?'open':'closed'}` }>
-        <a href="/">WELCOME</a>
-        <a href="info/">INFORMATION</a>
-        <a href="faq/">FAQ</a>
-       </nav>
-       
       </Box>
         <br/>
         <h1 style={{textAlign:"center"}}>HOME</h1>
