@@ -29,7 +29,10 @@ nav a:hover{
 }
 .tit{
   text-align: center;
+}
+.tit:hover{
   text-decoration: underline;
+  background-color: lightgreen;
 }
 #bg{
   background-color: green;
