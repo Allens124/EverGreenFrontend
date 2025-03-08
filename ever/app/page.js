@@ -13,8 +13,8 @@ export default function Home() {
       <br/>
       <Box>
        <nav className="jian">
-        <a href="/">Welcome</a>
-        <a href="info/">Information</a>
+        <a href="/">WELCOME</a>
+        <a href="info/">INFORMATION</a>
         <a href="faq/">FAQ</a>
        </nav>
       </Box>
