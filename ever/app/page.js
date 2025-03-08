@@ -37,13 +37,13 @@ export default function Home() {
         <hr/>
           <Box sx={{display:"flex", flexDirection:"column"}}>
             <Box>
-              <img src="/images/"/>
+              <img src="/images/img2.png" height={"100%"} width={"100%"}/>
             </Box>
             <Box>
-
+                <h1>Hello</h1>
             </Box>
             <Box>
-
+            <img src="/images/img4.png" height={"100%"} width={"100%"}/>
             </Box>
           </Box>
     </Box>
