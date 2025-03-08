@@ -64,8 +64,12 @@ body {
 }
 
 
-injected stylesheet
+button{
+  text-rendering: auto;
+  
+}
 :root {
+    --fa-font-solid: normal 900 1em / 1 "Font Awesome 6 Free";
     --lt-color-gray-100: #f8f9fc;
     --lt-color-gray-200: #f1f3f9;
     --lt-color-gray-300: #dee3ed;
