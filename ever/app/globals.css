@@ -9,13 +9,14 @@ body {
   box-sizing: border-box;
 }
 .luck{
+  color: black;
   background-color: white;
 }
 .up{
   display: flex;
   justify-content: space-between; /* Moves title left, menu right */
   align-items: center;
-  border:50px;
+  border: 50px;
   padding: 10px 20px;
   background-color: white;
   position: relative;
@@ -24,9 +25,9 @@ body {
 
 .menub {
   position: absolute;
-  top: 50px;
-  right: 20px;
-  background: rgb(32, 231, 95);
+  top: 20px;
+  right: 85px;
+  background: darkgreen;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 10px;
@@ -47,7 +48,7 @@ body {
   border-bottom: none;
 }
 .menub a:hover {
-  background: #0e9f78;
+  background: darkseagreen;
 }
 .tit{
   text-align: left;
@@ -55,10 +56,10 @@ body {
 .tit:hover{
   text-decoration: underline;
   background-color: lightgreen;
-  color:white;
+  color:black;
 }
 #bg{
-  background-color: green;
+  background-color: black;
 }
 
 .xu{
@@ -73,7 +74,7 @@ p{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .xd{
-  text-wrap:wrap ;
+  text-wrap: wrap;
 }
 
 body {
@@ -93,7 +94,7 @@ body {
   padding: 10px;
 }
 button{
-  color:#FAF2E4;
+  color: #FAF2E4;
 }
 .b{
   background-color: white;

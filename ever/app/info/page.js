@@ -14,7 +14,7 @@ export default function Home() {
         </Box>
         {/* Menu Button */}
         <Box>
-          <Button type="button" className="toggle" onClick={() => setMenuOpen(prev => !prev)} >  
+          <Button type="button" className="toggle" color="black" onClick={() => setMenuOpen(prev => !prev)} >  
             ☰
           </Button>
           {/* Dropdown Menu Box */}
@@ -28,7 +28,7 @@ export default function Home() {
           )}
         </Box>
       </Box>
-        <h1 style={{textAlign:"center"}}>HOME</h1>
+        <h1 style={{textAlign:"center"}}>WHO WE ARE</h1>
         <hr/>
         <Box className="b">
           <h1 className="xu">OUR MISSION:</h1>
@@ -56,7 +56,7 @@ export default function Home() {
         <hr/>
         <Box>
           <footer className="e">
-            <p>Website Design by: Harrison Min, Steven Ou, Allen Singleton Queens College  Copyright © 2025 </p>
+            <p>Website Design by: Harrison Min, Steven Ou, Allen Singleton Queens College Copyright © 2025 </p>
           </footer>
         </Box>  
     </Box>
