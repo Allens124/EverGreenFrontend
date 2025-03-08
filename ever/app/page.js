@@ -37,14 +37,14 @@ export default function Home() {
         <hr/>
           <Box sx={{display:"flex", flexDirection:"row"}}>
             <Box sx={{textWrap:"balance", textAlign:"center", flex:"1"}}>
-                <img src="/images/image6.png" height={"100%"} width={"100%"}/>
+                <img src="/images/image1.png" height={"100%"} width={"100%"}/>
  
             </Box>
             <Box sx={{textWrap:"balance", textAlign:"center", flex:"1"}}>
-                <img src="/images/img2.png" height={"100%"} width={"100%"}/>
+                <img src="/images/image2.png" height={"100%"} width={"100%"}/>
             </Box>
             <Box sx={{textWrap:"balance", textAlign:"center", flex:"1"}}>
-                <img src="/images/img4.png" height={"100%"} width={"100%"}/>
+                <img src="/images/image3.png" height={"100%"} width={"100%"}/>
             </Box>
           </Box>
     </Box>
