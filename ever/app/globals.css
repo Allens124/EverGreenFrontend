@@ -57,11 +57,11 @@ p{
 body {
   background-color: #FAF2E4;
   font-family: "cursive";
-
 }
+
 #a{
-  background-color:red ;
-  background-image: url("/images/image1.png");
+  /*background-color:red;*/
+  /*background-image: url("/images/image1.png");*/
 }
 .navbar-toggle {
   margin: 0;
