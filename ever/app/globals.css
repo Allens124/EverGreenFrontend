@@ -19,6 +19,9 @@ body {
   text-decoration: none;
   color: black;
 }
+.jian.open {
+  display: block;
+}
 nav a{
   flex:1;
   text-align:center;
