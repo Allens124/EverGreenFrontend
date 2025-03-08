@@ -18,6 +18,7 @@ export default function Home() {
         <a href="/faq">FAQ</a>
        </nav>
       </Box>
+      
     </Box>
   );
 }
