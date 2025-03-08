@@ -32,21 +32,17 @@ export default function Home() {
         <hr/>
         <Box className="b">
           <h1 className="xu">OUR MISSION:</h1>
-          <p>EverGreen aims to provide users with real-time air pollution data in parks, forests, and across the United States. <br/>
-            By highlighting these vulnerable and endangered regions, we hope to engage environmental activists as well as inform policymakers in their efforts to reduce climate change.</p>
+          <p>EverGreen aims to provide users with the latest air quality data in various environments across the world. <br/> By highlighting regions that are particularly vulnerable, we hope to engage environmental activists <br/> as well as inform policymakers in their efforts to reduce climate change and air pollution.</p>
         </Box>
         <hr/>
         <Box className="c">
           <h1 className="xu">OUR VISION:</h1>
-          <p>Our ultimate goal is twofold: On one hand, we wish to provide policymakers with the necessary resources to make informed decisions for the betterment of their districts. <br/>
-            On the other hand, we would like to mobilize our users by having them be more conscious of environmental conditions in their communities. <br/>
-            All together, we hope that our efforts will contribute to the reduction of air pollution across the nation.</p>
+          <p>Our ultimate goal is twofold: On one hand, we wish to provide policymakers with the necessary resources to <br/> make informed decisions for the betterment of their districts. On the other hand, we would like to mobilize <br/> our users by having them be more conscious of environmental conditions in their communities. In sum,<br/> we hope that our efforts will contribute to the reduction of air pollution worldwide.</p>
         </Box>
         <hr/>
         <Box className="d">
           <h1 className="xu">THE PROCESS:</h1>
-          <p>Our app works by analyzing air pollution data throughout the United States and ranking the air quality of each region on a map, using a scale from 1 to 5, where 1 represents an “unsafe” region that has poor air quality and 5 represents a “safe” region that has favorable air quality. 
-          <br/>To see the map, the user first enters a location input</p>
+          <p>Our app works by analyzing air pollution data throughout the United States and ranking the air quality <br/> of each region on a map, using a scale from 1 to 5, where 1 represents an “unsafe” region that has poor <br/> air quality and 5 represents a “safe” region that has favorable air quality. To see the map, the user <br/> first enters a location input </p>
         </Box>
         <hr/>
          <Box id="a">
