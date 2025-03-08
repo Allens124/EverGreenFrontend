@@ -68,6 +68,11 @@ button{
   text-rendering: auto;
   letter-spacing: normal;
   word-spacing: normal;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: center;
+  padding-block: 1px;
+  
 }
 :root {
     --fa-font-solid: normal 900 1em / 1 "Font Awesome 6 Free";
