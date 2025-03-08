@@ -19,7 +19,7 @@ export default function Home() {
         </Button>
       </Box>
         {/*Creating the Navigation Menu */}
-       <nav className="jian">
+       <nav className={`jian${menuOpen?'open':'closed'}`}>
         <a href="/">WELCOME</a>
         <a href="info/">INFORMATION</a>
         <a href="faq/">FAQ</a>
