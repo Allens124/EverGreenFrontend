@@ -10,8 +10,8 @@ body {
 }
 
 .jian{
-  display:flex;
-  font-family: "cursive";
+  display: ${menuOpen ? 'block' : 'none'};
+  flex-direction: column;
 }
 nav a{
   flex:1;
