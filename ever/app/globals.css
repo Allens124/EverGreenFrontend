@@ -54,3 +54,7 @@ p{
   text-wrap:wrap ;
 }
 
+body {
+  background-color: #FAF2E4;
+  font-family: "sofia-pro", sans-serif;
+}
