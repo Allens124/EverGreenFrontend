@@ -9,7 +9,13 @@ body {
   box-sizing: border-box;
 }
 
-
+.up{
+  display: flex;
+  justify-content: space-between; /* Moves title left, menu right */
+  align-items: center;
+  padding: 10px 20px;
+  background: #f5f5f5;
+}
 .jian a {
   display: block;
   padding: 10px;
