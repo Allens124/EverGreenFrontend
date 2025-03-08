@@ -20,7 +20,8 @@ export default function Home() {
       </Box>
       <Box>
         <h1 className="xu">OUR MISSION:</h1>
-
+        <br/>
+        <p></p>
 
       </Box>
     </Box>
