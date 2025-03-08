@@ -24,7 +24,7 @@ nav a:hover{
   background-color:lightgreen;
   color:white;
   border: 50px;
-  text-decoration:underline;
+  
   filter:brightness(100%);
 }
 .tit{
