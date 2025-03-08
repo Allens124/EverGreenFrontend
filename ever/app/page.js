@@ -6,7 +6,7 @@ import { Box, Link } from "@mui/material";
 
 export default function Home() {
   return (  
-    <Box sx={{flex:'1',}}>
+    <Box>
       <Link href="/">Welcome!</Link>
       <Link href="/info">Information</Link>
       <Link href="/home">AI Assistant</Link>
