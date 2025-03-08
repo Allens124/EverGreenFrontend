@@ -18,7 +18,6 @@ export default function Home() {
         <a href="faq/">FAQ</a>
        </nav>
       </Box>
-      
         <br/>
         <h1 style={{textAlign:"center"}}>HOME</h1>
         <br/>
