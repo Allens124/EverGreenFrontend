@@ -29,6 +29,9 @@ body {
 .jian.closed {
   display: none;
 }
+.menub{
+
+}
 nav a{
   flex:1;
   text-align:center;
