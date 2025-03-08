@@ -48,10 +48,7 @@ nav a:hover{
 }
 p{
   text-align: center;
-  color: black; /* Text color */
-  -webkit-text-stroke: 2px white; /* White outline */
-  font-size: 48px; /* Adjust as needed */
-  font-weight: bold;
+  font-size: 20px;
 }
 .xd{
   text-wrap:wrap ;
