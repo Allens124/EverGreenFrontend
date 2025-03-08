@@ -1,4 +1,4 @@
-import Slideshow from "../components/Slideshow";
+import Slideshow from "./components/Slideshow";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Slideshow /> {Slideshow}
+        <Slideshow /> {}
         {children}
       </body>
     </html>
