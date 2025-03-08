@@ -12,7 +12,7 @@ export default function Home() {
       </Box>
       <br/>
       <Box>
-       <nav>
+       <nav className="jian">
         <a href="/">Welcome</a>
         <a href="/info">Information</a>
         <a href="/faq">FAQ</a>
