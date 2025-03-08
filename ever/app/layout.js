@@ -1,3 +1,4 @@
+import Slideshow from "../components/Slideshow";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
