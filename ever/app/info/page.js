@@ -2,29 +2,29 @@
 import { useState } from "react";
 import "../globals.css";
 import * as React from 'react';
-import { Box, Button, Stack, TextField, Link } from "@mui/material";
+import { Box, Button } from "@mui/material";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (  
-    <Box>
+    <Box className="luck">
       <Box className="up">
-              <Box >
-              <h1 className="tit">EverGreen</h1>
+        <Box >
+          <h1 className="tit">EverGreen</h1>
+          </Box>
+            {/* Menu Button */}
+            <Button sx={{color:"white"}} type="button" className="toggle" onClick={() => setMenuOpen(prev => !prev)} >  
+              ☰
+            </Button>
+            {/* Dropdown Menu Box */}
+            {menuOpen && (
+              <Box className="menub">
+                <a href="/">WELCOME</a>
+                <a href="info/">INFORMATION</a>
+                <a href="faq/">FAQ</a>
               </Box>
-              {/* Menu Button */}
-              <Button type="button" className="toggle" onClick={() => setMenuOpen(prev => !prev)} >  
-                ☰
-              </Button>
-              {/* Dropdown Menu Box */}
-              {menuOpen && (
-                <Box className="menub">
-                  <a href="/">WELCOME</a>
-                  <a href="info/">INFORMATION</a>
-                  <a href="faq/">FAQ</a>
-                </Box>
-              )}
-            </Box>
+            )}
+        </Box>
     </Box>
   );
 }

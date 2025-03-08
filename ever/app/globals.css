@@ -19,20 +19,21 @@ body {
   padding: 10px 20px;
   background-color: #9d3d3d;
   position: relative;
+  min-height: 60px;
 }
 
-.menub{
+.menub {
   position: absolute;
   top: 50px;
   right: 20px;
-  background: white;
+  background: rgb(32, 231, 95);
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  z-index: 1000;
+  z-index: 9999; /* Increased to ensure visibility */
   transition: opacity 0.3s ease-in-out;
 }
 .menub a{
@@ -91,7 +92,9 @@ body {
   cursor: pointer;
   padding: 10px;
 }
-
+button{
+  color:#FAF2E4;
+}
 .b{
   background-color: aqua;
 }
