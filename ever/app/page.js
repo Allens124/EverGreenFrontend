@@ -10,7 +10,7 @@ export default function Home() {
       <Box>
         <h1 className="tit">EverGreen</h1>
       </Box>
-      <Box>
+      <Box className ="jian">
         <Link href="/">Welcome!</Link>
         <Link href="/info">Information</Link>
         <Link href="/home">AI Assistant</Link>
