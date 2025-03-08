@@ -8,7 +8,7 @@ export default function Home() {
   return (  
     <Box>
       <Box>
-        <h1>EverGreen</h1>
+        <h1 class="jian">EverGreen</h1>
       </Box>
       <Box>
         <Link href="/">Welcome!</Link>
