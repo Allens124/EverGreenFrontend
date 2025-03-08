@@ -1,5 +1,4 @@
 'use client'
-import Image from "next/image";
 import { useState } from "react";
 import "./globals.css";
 import * as React from 'react';
@@ -9,26 +8,23 @@ export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (  
     <Box>
-      <Box className="up">
+      <Box className="header">
         <Box>
-          <h1 className="tit">EverGreen</h1>
+        <h1 className="tit">EverGreen</h1>
         </Box>
-        <Box>
-          {/*Creating the Menubar */}
-        <Box className="navbar">
-          <Button type="button" className="toggle" onClick={() => setMenuOpen(prev => !prev)}>  
-            ☰ Menu
-          </Button>
-        </Box>
-          {/*Creating the Navigation Menu */}
-        <nav style={{ display: menuOpen ? 'block' : 'none' }} className={`jian ${menuOpen?'open':'closed'}` }>
-          <a href="/">WELCOME</a>
-          <a href="info/">INFORMATION</a>
-          <a href="faq/">FAQ</a>
-        </nav>
-        </Box>
+        {/* Menu Button */}
+        <Button type="button" className="toggle" onClick={() => setMenuOpen(prev => !prev)} >  
+          ☰
+        </Button>
+        {/* Dropdown Menu Box */}
+        {menuOpen && (
+          <Box className="menub">
+            <a href="/">WELCOME</a>
+            <a href="info/">INFORMATION</a>
+            <a href="faq/">FAQ</a>
+          </Box>
+        )}
       </Box>
-        <br/>
         <h1 style={{textAlign:"center"}}>HOME</h1>
         <hr/>
         <Box>
