@@ -62,7 +62,9 @@ body {
   background-color:red ;
   background-image: url("/images/image1.png");
 }
-
+button, select {
+  text-transform: none;
+}
 
 button{
   text-rendering: auto;
