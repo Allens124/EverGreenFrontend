@@ -25,8 +25,8 @@ export default function Home() {
         <br/>
         <Box>
           <h1 className="xu">OUR MISSION:</h1>
-          <p>EverGreen aims to provide users with real-time air pollution data in parks, forests, and across the United States. 
-            By highlighting these vulnerable and endangered regions, we hope to engage environmental activists as well as inform policymakers in their efforts to reduce climate change.</p>
+          <p>EverGreen aims to provide users with real-time air pollution data in parks, forests, and across the United States. <br/>
+            By highlighting these vulnerable and endangered regions, <br></br>we hope to engage environmental activists as well as inform policymakers in their efforts to reduce climate change.</p>
         </Box>
         <Box>
           <h1 className="xu">OUR VISION:</h1>
