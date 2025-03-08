@@ -22,6 +22,9 @@ body {
 .jian.open {
   display: block;
 }
+.jian.closed {
+  display: none;
+}
 nav a{
   flex:1;
   text-align:center;
