@@ -15,17 +15,15 @@ export default function Home() {
         <Button type="button" className="toggle" onClick={() => setMenuOpen(prev => !prev)} >  
           ☰
         </Button>
-
         {/* Dropdown Menu Box */}
         {menuOpen && (
-          <Box className="menu-box">
+          <Box className="menub">
             <a href="/">WELCOME</a>
             <a href="info/">INFORMATION</a>
             <a href="faq/">FAQ</a>
           </Box>
         )}
       </Box>
-        <br/>
         <h1 style={{textAlign:"center"}}>HOME</h1>
         <hr/>
         <Box>
