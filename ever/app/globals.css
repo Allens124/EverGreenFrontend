@@ -15,7 +15,7 @@ body {
   display:flex;
 
 }
-nav a{
+Box Link{
   flex:1;
   text-align:center;
   padding:10px;  
