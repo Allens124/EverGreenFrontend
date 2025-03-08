@@ -10,9 +10,9 @@ export default function Home() {
       <Box>
         <h1 className="tit">EverGreen</h1>
       </Box>
-      <Box className ="jian">
+      <Box sx={{textAlign:"center"}}>
        <nav>
-        <a href="/">Welcome</a>
+        <a href="/">Welcom</a>
         <a href="/info">Information</a>
         <a href = "/faq">AI Assistant</a>
        </nav>
