@@ -9,8 +9,9 @@ export default function Home() {
   return (  
     <Box>
       <Box className="header">
+        <Box>
         <h1 className="tit">EverGreen</h1>
-
+        </Box>
         {/* Menu Button */}
         <Button type="button" className="toggle" onClick={() => setMenuOpen(prev => !prev)} >  
           ☰
