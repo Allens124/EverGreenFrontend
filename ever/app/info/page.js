@@ -32,7 +32,7 @@ export default function Home() {
         <hr/>
         <Box className="b">
           <h1 className="xu">OUR MISSION:</h1>
-          <p>EverGreen aims to provide users with the latest air quality data in various environments across the world. <br/> By highlighting regions that are particularly vulnerable, we hope to engage environmental activists <br/> as well as inform policymakers in their efforts to reduce climate change and air pollution.</p>
+          <p>EverGreen aims to provide users with the latest air quality data in various environments across the world. <br/> By highlighting regions that are particularly vulnerable, we hope to engage environmental activists as <br/> well as inform policymakers in their efforts to reduce climate change and air pollution.</p>
         </Box>
         <hr/>
         <Box className="c">
