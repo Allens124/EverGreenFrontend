@@ -39,6 +39,7 @@ nav a:hover{
   font-family: "Comic-Sans";
   text-align: left;
   text-decoration: underline;
+  flex:1;
 }
 .xd{
   text-wrap:wrap ;
