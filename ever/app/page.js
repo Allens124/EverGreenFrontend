@@ -36,7 +36,8 @@ export default function Home() {
         <hr/>
         <Box>
           <h1 className="xu">THE PROCESS:</h1>
-          <p>Our app works by analyzing air pollution data throughout the United States and ranking the air quality of each region on a map, using a scale from 1 to 5, where 1 represents an “unsafe” region that has poor air quality and 5 represents a “safe” region that has favorable air quality. <br/>To see the map, the user first enters a location input</p>
+          <p>Our app works by analyzing air pollution data throughout the United States and ranking the air quality of each region on a map, using a scale from 1 to 5, where 1 represents an “unsafe” region that has poor air quality and 5 represents a “safe” region that has favorable air quality. 
+          <br/>To see the map, the user first enters a location input</p>
         </Box>
         <hr/>
          <Box>
