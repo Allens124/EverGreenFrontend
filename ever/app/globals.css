@@ -17,18 +17,7 @@ body {
   background: #f5f5f5;
   position: relative;
 }
-.jian a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: black;
-}
-.jian.open {
-  display: block;
-}
-.jian.closed {
-  display: none;
-}
+
 .menub{
   position: absolute;
   top: 50px;
