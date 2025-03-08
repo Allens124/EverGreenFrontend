@@ -7,9 +7,9 @@ import { Box, Button } from "@mui/material";
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (  
-    <Box>
-      <Box className="header">
-        <Box>
+    <Box className="luck">
+      <Box className="up">
+        <Box >
         <h1 className="tit">EverGreen</h1>
         </Box>
         {/* Menu Button */}
