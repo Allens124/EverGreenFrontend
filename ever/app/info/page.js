@@ -46,7 +46,7 @@ export default function Home() {
         </Box>
         <hr/>
          <Box id="a">
-          <h1 className="xu" >OUR DEVELOPMENT PROCESS</h1>
+          <h1 className="xu">OUR DEVELOPMENT PROCESS</h1>
           <p>--</p>
         </Box>
         <hr/>
