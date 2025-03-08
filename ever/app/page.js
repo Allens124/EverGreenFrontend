@@ -30,8 +30,8 @@ export default function Home() {
         </Box>
         <Box>
           <h1 className="xu">OUR VISION:</h1>
-          <p>Our ultimate goal is twofold: On one hand, we wish to provide policymakers with the necessary resources to make informed decisions for the betterment of their districts. 
-            On the other hand, we would like to mobilize our users by having them be more conscious of environmental conditions in their communities. 
+          <p>Our ultimate goal is twofold: On one hand, we wish to provide policymakers with the necessary resources to make informed decisions for the betterment of their districts. <br/>
+            On the other hand, we would like to mobilize our users by having them be more conscious of environmental conditions in their communities. <br/>
             All together, we hope that our efforts will contribute to the reduction of air pollution across the nation.</p>
         </Box>
       </Box>
