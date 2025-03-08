@@ -12,7 +12,9 @@ export default function Home() {
       </Box>
       <Box className ="jian">
        <nav>
-        <a href=""></a>
+        <a href="/">Welcome</a>
+        <a href="/info">Information</a>
+        <a href = "/faq">AI Assistant</a>
        </nav>
       </Box>
     </Box>
