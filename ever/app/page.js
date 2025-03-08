@@ -46,7 +46,7 @@ export default function Home() {
         </Box>
         <hr/>
         <footer>
-          
+        <p>Website Design by: | Harrison Min, Steven Ou, Allen Singleton| Queens College | Copyright © 2022 </p>
         </footer>
 
     </Box>
