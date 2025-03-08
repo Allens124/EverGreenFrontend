@@ -12,10 +12,8 @@ export default function Home() {
         <h1 className="tit">EverGreen</h1>
 
         {/* Menu Button */}
-        <Button type="button" className="toggle" 
-          onClick={() => setMenuOpen(prev => !prev)}
-        >  
-          ☰ Menu
+        <Button type="button" className="toggle" onClick={() => setMenuOpen(prev => !prev)} >  
+          ☰
         </Button>
 
         {/* Dropdown Menu Box */}
