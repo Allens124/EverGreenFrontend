@@ -72,7 +72,7 @@ button{
   text-shadow: none;
   text-align: center;
   padding-block: 1px;
-  
+  padding-inline:6px;
 }
 :root {
     --fa-font-solid: normal 900 1em / 1 "Font Awesome 6 Free";
