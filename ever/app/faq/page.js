@@ -42,7 +42,7 @@ export default function Home() {
           <hr/>
           <Box className="b">
             <h1 className="xu">Can I integrate my own API keys for additional environmental data?</h1>
-            <p>Currently, EverGreen supports API integrations for trees, parks, forests, and air quality. We are actively working on expanding our platform to include lakes, oceans, and wildlife data in the future. Stay tuned for updates!</p>
+            <p>Currently, EverGreen supports API integrations for trees, parks, forests, and air quality. We are actively working <br/> on expanding our platform to include lakes, oceans, and wildlife data in the future. Stay tuned for updates!</p>
           </Box>
     </Box>
   );
