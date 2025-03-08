@@ -62,6 +62,10 @@ body {
   background-color:red ;
   background-image: url("/images/image1.png");
 }
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
 button, select {
   text-transform: none;
 }
