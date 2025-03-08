@@ -45,7 +45,9 @@ export default function Home() {
           <p>--</p>
         </Box>
         <hr/>
-        
+        <footer>
+          
+        </footer>
 
     </Box>
   );
