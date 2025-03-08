@@ -18,23 +18,24 @@ export default function Home() {
         <a href="faq/">FAQ</a>
        </nav>
       </Box>
-      <Box sx={{textAlign:"center",display:"flex"}}>
+      
         <br/>
         <h1 style={{textAlign:"center"}}>HOME</h1>
         <br/>
-        <br/>
+        <hr/>
         <Box>
           <h1 className="xu">OUR MISSION:</h1>
           <p>EverGreen aims to provide users with real-time air pollution data in parks, forests, and across the United States. <br/>
             By highlighting these vulnerable and endangered regions, <br></br>we hope to engage environmental activists as well as inform policymakers in their efforts to reduce climate change.</p>
         </Box>
+        <hr/>
+        <br/>
         <Box>
           <h1 className="xu">OUR VISION:</h1>
           <p>Our ultimate goal is twofold: On one hand, we wish to provide policymakers with the necessary resources to make informed decisions for the betterment of their districts. <br/>
             On the other hand, we would like to mobilize our users by having them be more conscious of environmental conditions in their communities. <br/>
             All together, we hope that our efforts will contribute to the reduction of air pollution across the nation.</p>
         </Box>
-      </Box>
     </Box>
   );
 }
