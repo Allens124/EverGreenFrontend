@@ -9,22 +9,24 @@ export default function Home() {
   return (  
     <Box className="luck">
       <Box className="up">
-              <Box >
-              <h1 className="tit">EverGreen</h1>
+        <Box>
+        <h1 className="tit">EverGreen</h1>
+        </Box>
+          {/* Menu Button */}
+          <Box>
+            <Button type="button" className="toggle" onClick={() => setMenuOpen(prev => !prev)} >  
+              ☰
+            </Button>
+            {/* Dropdown Menu Box */}
+            {menuOpen && (
+              <Box className="menub">
+                <a href="/">WELCOME</a>
+                <a href="/info">INFORMATION</a>
+                <a href="/faq">FAQ</a>
               </Box>
-              {/* Menu Button */}
-              <Button type="button" className="toggle" onClick={() => setMenuOpen(prev => !prev)} >  
-                ☰
-              </Button>
-              {/* Dropdown Menu Box */}
-              {menuOpen && (
-                <Box className="menub">
-                  <a href="/">WELCOME</a>
-                  <a href="/info">INFORMATION</a>
-                  <a href="/faq">FAQ</a>
-                </Box>
-              )}
-            </Box>
-    </Box>
+            )}
+          </Box>
+        </Box>
+      </Box>
   );
 }

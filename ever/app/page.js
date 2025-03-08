@@ -53,10 +53,11 @@ export default function Home() {
           <p>--</p>
         </Box>
         <hr/>
-        <footer className="e">
-        <p>Website Design by: Harrison Min, Steven Ou, Allen Singleton Queens College  Copyright © 2025 </p>
-        </footer>
-
+        <Box>
+          <footer className="e">
+            <p>Website Design by: Harrison Min, Steven Ou, Allen Singleton Queens College  Copyright © 2025 </p>
+          </footer>
+        </Box>  
     </Box>
   );
 }
