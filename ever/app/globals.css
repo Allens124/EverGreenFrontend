@@ -8,7 +8,9 @@ body {
 * {
   box-sizing: border-box;
 }
-
+.luck{
+  background-color: #9d3d3d;
+}
 .up{
   display: flex;
   justify-content: space-between; /* Moves title left, menu right */
@@ -77,9 +79,9 @@ body {
   font-family: "cursive";
 }
 
-.a{
-  /*background-color:red;*/
-  /*background-image: url("/images/image1.png");*/
+#a{
+  background-color:red;
+  background-image: url("/images/image1.png");
 }
 
 .toggle{
@@ -88,4 +90,17 @@ body {
   font-size: 1.5rem;
   cursor: pointer;
   padding: 10px;
+}
+
+.b{
+  background-color: aqua;
+}
+.c{
+  background-color: antiquewhite;
+}
+.d{
+  background-color:aquamarine;
+}
+.e{
+
 }
