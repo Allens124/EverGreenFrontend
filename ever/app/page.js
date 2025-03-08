@@ -7,9 +7,14 @@ import { Box, Link } from "@mui/material";
 export default function Home() {
   return (  
     <Box>
-      <Link href="/">Welcome!</Link>
-      <Link href="/info">Information</Link>
-      <Link href="/home">AI Assistant</Link>
+      <Box>
+
+      </Box>
+      <Box>
+        <Link href="/">Welcome!</Link>
+        <Link href="/info">Information</Link>
+        <Link href="/home">AI Assistant</Link>
+      </Box>
     </Box>
   );
 }
