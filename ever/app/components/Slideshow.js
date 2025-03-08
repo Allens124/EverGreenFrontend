@@ -6,9 +6,12 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import styles
 import Image from "next/image";
 
 const images = [
-  "/images/slide1.jpg",
-  "/images/slide2.jpg",
-  "/images/slide3.jpg"
+  "/images/image1.png",
+  "/images/image2.png",
+  "/images/image3.png",
+  "/images/image4.png",
+  "/images/image5.png",
+  "/images/image6.png"
 ];
 
 export default function Slideshow() {
