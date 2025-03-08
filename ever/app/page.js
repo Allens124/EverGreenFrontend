@@ -13,9 +13,9 @@ export default function Home() {
       <br/>
       <Box>
        <nav className="jian">
-        <a href="/">Welcome</a>
-        <a href="/info">Information</a>
-        <a href="/faq">FAQ</a>
+        <a href="/">Welcome(home)</a>
+        <a href="/info/info.js">Information(home)</a>
+        <a href="/faq/faq.js">FAQ(home)</a>
        </nav>
       </Box>
       <Box>
