@@ -12,6 +12,12 @@ export default function Home() {
       </Box>
       <br/>
       <Box>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar icon-bar--middle"></span>
+        <span class="icon-bar"></span>
+      </button>
        <nav className="jian">
         <a href="/">WELCOME</a>
         <a href="info/">INFORMATION</a>
@@ -40,13 +46,13 @@ export default function Home() {
           <br/>To see the map, the user first enters a location input</p>
         </Box>
         <hr/>
-         <Box>
-          <h1 className="xu">OUR DEVELOPMENT PROCESS</h1>
+         <Box id="a">
+          <h1 className="xu" >OUR DEVELOPMENT PROCESS</h1>
           <p>--</p>
         </Box>
         <hr/>
         <footer>
-        <p>Website Design by: | Harrison Min, Steven Ou, Allen Singleton| Queens College | Copyright © 2025 </p>
+        <p>Website Design by:  Harrison Min, Steven Ou, Allen Singleton Queens College  Copyright © 2025 </p>
         </footer>
 
     </Box>

@@ -58,3 +58,7 @@ body {
   background-color: #FAF2E4;
   font-family: "sofia-pro", sans-serif;
 }
+#a{
+  background-color:red ;
+  background-image: url("/images/image1.png");
+}
