@@ -19,9 +19,9 @@ export default function Home() {
               {/* Dropdown Menu Box */}
               {menuOpen && (
                 <Box className="menub">
-                  <a href="/">WELCOME</a>
-                  <a href="info/">INFORMATION</a>
-                  <a href="faq/">FAQ</a>
+                  <a href="/">TEST</a>
+                  <a href="/info">INFORMATION</a>
+                  <a href="/faq">FAQ</a>
                 </Box>
               )}
             </Box>
