@@ -12,12 +12,13 @@ export default function Home() {
       </Box>
       <br/>
       <Box>
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar icon-bar--middle"></span>
-        <span class="icon-bar"></span>
-      </button>
+        {/*Creating the Menubar */}
+      <Box className="navbar">
+        <button type="button" class="toggle" onClick={()=> setMenuOpen(!setMenuOpen)}>  
+          ☰ Menu
+        </button>
+      </Box>
+        //Creating the Navigation Menu
        <nav className="jian">
         <a href="/">WELCOME</a>
         <a href="info/">INFORMATION</a>
