@@ -9,7 +9,7 @@ export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (  
     <Box>
-      <Box>
+      <Box className="up">
         <h1 className="tit">EverGreen</h1>
       </Box>
       <br/>
@@ -21,17 +21,12 @@ export default function Home() {
         </Button>
       </Box>
         {/*Creating the Navigation Menu */}
-       <nav className={`jian ${menuOpen?'open':'closed'}`}>
+       <nav style={{ display: menuOpen ? 'block' : 'none' }} className={`jian ${menuOpen?'open':'closed'}` }>
         <a href="/">WELCOME</a>
         <a href="info/">INFORMATION</a>
         <a href="faq/">FAQ</a>
        </nav>
-       <style jsx>{`
-       .jian{
-            display: ${menuOpen ? 'block' : 'none'};
-            flex-direction: column;
-            }`}
-        </style>
+       
       </Box>
         <br/>
         <h1 style={{textAlign:"center"}}>HOME</h1>
