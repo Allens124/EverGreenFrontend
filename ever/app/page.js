@@ -26,6 +26,12 @@ export default function Home() {
         <a href="info/">INFORMATION</a>
         <a href="faq/">FAQ</a>
        </nav>
+       <style jsx>{`
+       .jian{
+            display: ${menuOpen ? 'block' : 'none'};
+            flex-direction: column;
+            }`}
+        </style>
       </Box>
         <br/>
         <h1 style={{textAlign:"center"}}>HOME</h1>

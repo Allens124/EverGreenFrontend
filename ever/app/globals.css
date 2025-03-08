@@ -9,10 +9,7 @@ body {
   box-sizing: border-box;
 }
 
-.jian{
-  display: ${menuOpen ? 'block' : 'none'};
-  flex-direction: column;
-}
+
 .jian a {
   display: block;
   padding: 10px;
