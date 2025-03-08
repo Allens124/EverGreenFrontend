@@ -35,7 +35,7 @@ export default function Home() {
         </Box>
         <hr/>
         <Box>
-
+          
         </Box>
         <hr/>
          <Box>
