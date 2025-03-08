@@ -24,7 +24,7 @@ export default function Home() {
         <Box>
           <h1 className="xu">OUR MISSION:</h1>
           <p>EverGreen aims to provide users with real-time air pollution data in parks, forests, and across the United States. <br/>
-            By highlighting these vulnerable and endangered regions, <br></br>we hope to engage environmental activists as well as inform policymakers in their efforts to reduce climate change.</p>
+            By highlighting these vulnerable and endangered regions, we hope to engage environmental activists as well as inform policymakers in their efforts to reduce climate change.</p>
         </Box>
         <hr/>
         <Box>
@@ -36,6 +36,7 @@ export default function Home() {
         <hr/>
         <Box>
           <h1 className="xu">THE PROCESS:</h1>
+          <p>Our app works by analyzing air pollution data throughout the United States and ranking the air quality of each region on a map, using a scale from 1 to 5, where 1 represents an “unsafe” region that has poor air quality and 5 represents a “safe” region that has favorable air quality. <br/>To see the map, the user first enters a location input</p>
         </Box>
         <hr/>
          <Box>
