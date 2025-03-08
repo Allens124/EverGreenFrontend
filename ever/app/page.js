@@ -29,7 +29,11 @@ export default function Home() {
         </Box>
       </Box>
         <h1 style={{textAlign:"center"}}>HOME</h1>
-        <hr/> 
+        <hr/>
+          <Box className="b">
+            <h1 className="xu">What is EverGreen?:</h1>
+            <p>EverGreen is a software that works by analyzing air pollution data throughout the United States and ranking the air quality of each region on a map, using a scale from 1 to 5, where 1 represents an “unsafe” region that has poor air quality and 5 represents a “safe” region that has favorable air quality.</p>
+          </Box>
     </Box>
   );
 }
