@@ -15,7 +15,7 @@
 
   'use client'
 import { useState } from "react";
-import "./globals.css";
+import "/*globals.css";
 import * as React from 'react';
 import { Box, Button } from "@mui/material";
 
@@ -36,7 +36,6 @@ export default function Home() {
           {menuOpen && (
             <Box className="menub">
               <a href="/">HOME</a>
-              <a href="/info">WHO WE ARE</a>
               <a href="/map">EVERGREEN MAP</a>
               <a href="/faq">FAQ</a>
             </Box>
