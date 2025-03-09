@@ -1,8 +1,6 @@
 'use client'
 import React, { useState, useEffect } from "react";
 import "../globals.css";
-import * as React from 'react';
-
 import { Box, Button } from "@mui/material";
 
 export function Home() {
