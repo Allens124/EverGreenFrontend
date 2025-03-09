@@ -52,7 +52,7 @@ export default function Home() {
         <hr/>
         <Box>
           <footer className="e">
-            <p>Website Design by: Harrison Min, Steven Ou, Allen Singleton Queens College Copyright © 2025 </p>
+            <p>Website Design by: Harrison Min, Steven Ou, Allen Singleton</p>
           </footer>
         </Box>  
     </Box>
