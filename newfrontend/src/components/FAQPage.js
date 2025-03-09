@@ -24,8 +24,8 @@ export default function Home() {
     <Box>
       <Box>
         <a href="/">HOME</a>
-        <a href="/map">EVERGREEN MAP</a>
-        <a href="/faq">FAQ</a>
+        <a href="/MapPage">EVERGREEN MAP</a>
+        <a href="/FAQPage">FAQ</a>
       </Box>
     </Box>
   </Box><h1 style={{ textAlign: "center" }}>FAQ</h1><hr /><Box className="b">
