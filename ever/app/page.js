@@ -14,7 +14,7 @@ export default function Home() {
         </Box>
         {/* Menu Button */}
         <Box>
-          <Button type="button" className="toggle" color="black" onClick={() => setMenuOpen(prev => !prev)} >  
+          <Button type="button" className="toggle" color="white" onClick={() => setMenuOpen(prev => !prev)} >  
             ☰
           </Button>
           {/* Dropdown Menu Box */}
