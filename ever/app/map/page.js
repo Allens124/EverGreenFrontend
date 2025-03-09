@@ -150,7 +150,6 @@ export default function Home() {
           console.error('Error fetching data from APIs:', err);
         }
       };
-    
       // Process data into heatmap format
       const processData = (treeData, parkData, forestData, airQualityData) => {
         const points = [];
