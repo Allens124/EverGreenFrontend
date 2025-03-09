@@ -3,7 +3,7 @@ import { useState } from "react";
 import "../globals.css";
 import * as React from 'react';
 import { Box, Button } from "@mui/material";
-
+import MapPage from "../backend/MapPage";
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (  
@@ -30,6 +30,7 @@ export default function Home() {
       </Box>
         <h1 style={{textAlign:"center"}}>EVERGREEN MAP</h1>
         <hr/>
+        <MapPage />
     </Box>
   );
 }
