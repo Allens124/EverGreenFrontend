@@ -37,10 +37,6 @@ export default function Home() {
     
   );
 
-
-
-import { Box, Button } from "@mui/material";
-import MapPage from "../backend/MapPage";
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (  
@@ -68,7 +64,8 @@ export default function Home() {
         <h1 style={{textAlign:"center"}}>EVERGREEN MAP</h1>
         <hr/>
       </Box>
-      export function{}
+  )};
+      export function mpa(){
     const MapPage = () => {
       const [location, setLocation] = useState('');
       const [coordinates, setCoordinates] = useState(null);
@@ -271,9 +268,10 @@ export default function Home() {
         </div>
       );
     };
+  
+    export default MapPage;
+};
 
-  export default MapPage;
-  );
 }
 
 }
