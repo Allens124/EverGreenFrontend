@@ -1,6 +1,7 @@
 'use client'
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+import {Heatmaplayer} from '@react-google-maps/api'; // Import HeatmapLayer
 import "../globals.css";
 import * as React from 'react';
 
