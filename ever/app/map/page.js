@@ -1,7 +1,9 @@
 'use client'
 import { useState } from "react";
+import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import "../globals.css";
 import * as React from 'react';
+
 import { Box, Button } from "@mui/material";
 import MapPage from "../backend/MapPage";
 export default function Home() {
