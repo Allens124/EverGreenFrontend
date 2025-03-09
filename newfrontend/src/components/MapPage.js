@@ -207,9 +207,10 @@ const MapPage = () => {
   );
 };
 
-export default MapPage;
-
-<Box className="luck">
+export function Home() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  return (  
+    <Box className="luck">
       <Box className="up">
         <Box >
         <h1 className="tit">EverGreen</h1>
@@ -233,3 +234,4 @@ export default MapPage;
         <h1 style={{textAlign:"center"}}>EVERGREEN MAP</h1>
         <hr/>
     </Box>
+);}
