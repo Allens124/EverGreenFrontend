@@ -1,8 +1,9 @@
 /* global google */
 import React, { useState, useEffect } from 'react';
+import "./globals.css";
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import { HeatmapLayer } from '@react-google-maps/api'; // Import HeatmapLayer
-
+import{Box, Button} from '@mui/material';
 const MapPage = () => {
   const [location, setLocation] = useState('');
   const [coordinates, setCoordinates] = useState(null);
